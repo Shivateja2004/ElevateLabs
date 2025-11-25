@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f4f4f4;
+}
+
+h1 {
+    color: #333;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #0077ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 8px 0;
+}
+
+button {
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
